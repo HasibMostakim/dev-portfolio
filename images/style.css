@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;  
+   
+}
+.orange {
+    color: orange;
+}
+section {
+    display: flex;
+
+}
+.half-page {
+    width: 50%;
+}
+.half-page img {
+    width: 80%;
+    height: 80%;
+}
