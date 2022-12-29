@@ -2,17 +2,46 @@ body {
     font-family: 'Poppins', sans-serif;  
    
 }
+body {
+    padding: 30px;
+}
+.top_border{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
 .orange {
     color: orange;
 }
 section {
     display: flex;
-
+margin-bottom: 150px;
 }
 .half-page {
-    width: 50%;
+    width: 40%;
 }
 .half-page img {
-    width: 80%;
-    height: 80%;
+    margin-left: 100px;
+    width: 100%;
+   
+}
+h1 {
+    font: bold;
+    padding-bottom: 0%;
+}
+p {
+    text-align: justify;
+}
+.submit_btn {
+    text-decoration: none;
+    background-image: linear-gradient(#e75036,#eea5a5);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font: 400;
+    
+}
+.mid-half {
+    width: 50%;
 }
